@@ -21,7 +21,7 @@ jobs:
     strategy:
       matrix:
         # Include amd64 on all platforms.
-        goos: [linux, windows, drawin]
+        goos: [linux, windows, darwin ]
         goarch: [amd64, arm64]
       fail-fast: false
     runs-on: ubuntu-latest
